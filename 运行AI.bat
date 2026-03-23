@@ -1,0 +1,1 @@
+"D:\和克聊天\.venv\Scripts\python.exe" "D:\和克聊天\桌面悬浮球AI\app.py"

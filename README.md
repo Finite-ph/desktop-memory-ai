@@ -67,14 +67,14 @@ pip install pystray pillow requests
 
 ### 启动应用
 
-```bash
-python chat_window.py
-```
+1. 创建启动脚本：新建一个文本文件，输入以下内容并保存为 `运行AI.bat`（放在项目文件夹或桌面）
+   ```cmd
+   "D:\和克聊天\.venv\Scripts\python.exe" "D:\和克聊天\桌面悬浮球AI\app.py"
+   ```
+2. 双击 `运行AI.bat` 启动应用
+3. 右下角系统托盘会出现图标，点击弹出聊天窗口
 
-或使用启动器：
-```cmd
-start_chat.bat
-```
+> **提示**：如果双击 .bat 文件默认被 IDE 打开，可以右键 → 打开方式 → 选择"命令提示符"或创建快捷方式。
 
 ### 首次配置
 
@@ -115,7 +115,7 @@ D:\Claude\memory\
 ├── chat_window.py      # 聊天窗口主程序
 ├── app.py             # 系统托盘启动器
 ├── config.json        # API 配置
-├── start_chat.bat    # Windows 启动脚本
+├── 运行AI.bat         # 启动脚本（需手动创建）
 └── README.md         # 本文档
 ```
 
