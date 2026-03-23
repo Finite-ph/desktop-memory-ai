@@ -29,9 +29,12 @@
 
 ## 截图
 
-![聊天窗口](screenshot1.png)
-
-![托盘图标](screenshot2.png)
+<table>
+<tr>
+<td><img src="screenshot1.png" width="400"/></td>
+<td><img src="screenshot2.png" width="400"/></td>
+</tr>
+</table>
 
 ## 功能
 
